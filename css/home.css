@@ -22,3 +22,25 @@ header nav .nav-right a{
   font-size: 1.1em;
 }
 
+
+header nav .nav-left .register-login-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #666;
+    padding: 5px 8px;
+    border-radius: 5px;
+  }
+  
+  header nav .nav-left .register-login-btn a{
+      color: #444;
+      margin: 0px 10px;
+      font-size: .9em;
+  }
+  
+  header nav .nav-left .register-login-btn i{
+       color: #444;
+       margin: 7px;
+       font-size: 1.1em;
+  }
+
