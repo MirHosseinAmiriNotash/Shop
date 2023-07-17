@@ -48,3 +48,51 @@ header nav .nav-left .register-login-btn{
 
 
   /* slider section */
+ 
+  .slider{
+     font-size: 1em;
+     position: relative;
+  }
+
+  .slider .slides{
+    
+  }
+
+  .slider .slides .item{
+     position: relative;
+     display: none;
+  }
+  
+  .slider .slides .item img{
+      width: 100%;
+  }
+
+  .slider .slides .item span{
+     position: absolute;
+     right: 10%;
+     top: 40%;
+     font-size: 1.5em;
+     color: #222;
+  }
+
+  .slider .slides .active{
+     display: block;
+  }
+
+  .slider .buttons{
+    color: white;
+     position: absolute;
+     bottom: 30px;
+     left: 40px;
+     z-index: 1;
+     
+  }
+
+  .slider .buttons i{
+   margin-right: 5px;
+   cursor: pointer;
+  }
+
+  .slider .buttons i:hover{
+    color: rgba(255, 255, 255, .4); 
+  }
