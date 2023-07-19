@@ -77,6 +77,8 @@ header nav .nav-left .register-login-btn{
 
   .slider .slides .active{
      display: block;
+     animation-name: bounceInLeft;
+     animation-duration: 1s;
   }
 
   .slider .buttons{
