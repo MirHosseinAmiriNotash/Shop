@@ -131,3 +131,51 @@ background-color: var(--color-bg-1);
   height: 50%;
   border-radius: 50%;
 }
+
+
+/* holder */
+
+.holder{
+  background-color: var(--color-bg-3);
+  padding: 30px;
+}
+
+/* mini-cards */
+
+.mini-card-report{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mini-card-report .right{
+  background-color: var(--color-bg-4);
+  padding: 25px 15px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+
+}
+
+.mini-card-report .right i{
+  color:var(--color-icon-1);
+}
+
+.mini-card-report .left{
+  background-color: var(--color-bg-1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 50px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.mini-card-report .left span:first-child{
+  color: var(--color-text-header-2);
+}
+
+.mini-card-report .left span:last-child{
+  font-size: .8em;
+  color: #444;
+}
+
