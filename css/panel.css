@@ -22,6 +22,10 @@
 
 }
 
+.panel-min{
+  display: grid;
+  grid-template-columns: 1fr 13fr;
+}
 
 .menu{
 width: 100%;
@@ -262,7 +266,7 @@ background-color: var(--color-bg-1);
 .menu .details{
   padding: 10px 5px;
 }
-.menu .details .details-item{
+.menu .user-info .details .details-item{
   font-size: .8em;
   display: flex;
   margin-top: 5px;
