@@ -123,16 +123,6 @@ background-color: var(--color-bg-1);
    border-radius: 5px;
 }
 
-
-
-
-.panel .right .menu .user-info .img-name img{
-  width: 50%;
-  height: 50%;
-  border-radius: 50%;
-}
-
-
 /* holder */
 
 .holder{
@@ -231,5 +221,72 @@ background-color: var(--color-bg-1);
    display: flex;
   justify-content: center;
   align-items: center;
+  
+}
+
+/* menu */
+
+.menu{
+ font-size: 1em;
+}
+
+.menu .user-info{
+  padding:20px;
+  border: 1px solid var(--color-border-1);
+}
+
+.menu .user-info .img-name{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.menu .user-info .img-name img{
+  width: 50px;
+  height: 50px;
+  border: 3px solid var(--color-border-1);
+  border-radius: 50%;
+}
+
+.menu .user-info .img-name span{
+  font-size: .9em;
+  color: var(--color-icon-2);
+  margin-left: 10px;
+}
+
+.menu .user-info .img-name i{
+ color: var(--color-icon-2);
+ cursor: pointer;
+}
+
+.menu .details{
+  padding: 10px 5px;
+}
+.menu .details .details-item{
+  font-size: .8em;
+  display: flex;
+  margin-top: 5px;
+  justify-content: space-between;
+}
+
+.menu .details .details-item span{
+  color: var(--color-text-span);
+}
+
+/* menu-btns */
+
+.menu-btns{
+
+}
+
+.menu-btns .item{
+  
+}
+
+.menu-btns .item i{
+  
+}
+
+.menu-btns .item span{
   
 }
