@@ -280,13 +280,30 @@ background-color: var(--color-bg-1);
 }
 
 .menu-btns .item{
-  
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px 30px 20px 0px;;
+}
+
+.menu-btns .item:hover{
+  background-color: var(--color-bg-5);
 }
 
 .menu-btns .item i{
-  
+  color: var(--color-icon-1);
+  font-size: 1.4em;
 }
 
 .menu-btns .item span{
-  
+  margin-right: 25px;
+  color: var(--color-text-header);
+}
+
+.menu-btns .item-active {
+  background-color: var(--color-bg-2);
+  color: var(--color-icon-1);
+}
+
+.menu-btns .item-active span {
+  color: var(--color-icon-1);
 }
